@@ -1,16 +1,40 @@
-# news_app
+# 📰 News Application
 
-A new Flutter project.
+This is a Flutter-based News Application that displays the latest headlines by integrating with the [News API](https://newsapi.org/). The app provides categorized news including:
 
-## Getting Started
+- ⚽ Sports  
+- 🏥 Health  
+- 💼 Business  
+- 🎬 Entertainment  
+- 📰 General  
+- 🔬 Science  
+- 💻 Technology  
 
-This project is a starting point for a Flutter application.
+When you click on a news item, the app opens the full article in a web view so you can read the complete story without leaving the app.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Real-time news updates from News API
+- Browse news by category
+- Tap on a news item to view the full article in a web view
+- Cached images for improved performance
+- Clean and responsive Flutter UI
+- Fast and efficient networking with Dio
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Packages Used
+
+- [`dio`](https://pub.dev/packages/dio) – For powerful and flexible HTTP requests
+- [`cached_network_image`](https://pub.dev/packages/cached_network_image) – For efficient image loading and caching
+- [`webview_flutter`](https://pub.dev/packages/webview_flutter) – To display full news articles inside the app
+
+## 🛠️ Built With
+
+- [Flutter](https://flutter.dev/) – Cross-platform UI toolkit
+- [News API](https://newsapi.org/) – Source for the latest headlines
+
+## 🧰 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Mohamed68Mohamed68/News_App.git
+   cd News_App
